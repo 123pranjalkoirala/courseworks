@@ -1,0 +1,68 @@
+<!-- student name: pranjal babu koirala
+university id: 2407642-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Linking to the CSS stylesheet -->
+    <link rel="stylesheet" href="pranjalbabukoirala-2407642.CSS.css">
+</head>
+<body>
+    <!-- Main container -->
+    <main class="container">
+        <!-- Left section for the search and current weather -->
+        <section class="left">
+            <!-- Input box and search button in the search area -->
+            <section class="search-section">
+                <input type="search" id="search-box" placeholder="Search city name"/>
+                <button id="search-button">Search</button>
+            </section>
+            <!--  A section showcasing the current weather conditions -->
+            <section class="city-weather group">
+                <h2><span id="weather-condition"></span></h2>
+                <h1><span id="weather-temperature"></span>°C</h1>
+                <p><span id="weather-day"></span> <span id="weather-date"></span></p>
+                <h2><span id="weather-city"></span></h2>
+            </section>
+            <!-- Divider line -->
+            <hr class="group"/>
+            <!--  Section for showing more meteorological data -->
+            <section class="weather-info group">
+                <div class="info-item">
+                    <h1><span id="weather-pressure"></span></h1>
+                    <p>Pressure</p>
+                </div>
+                <div class="info-item">
+                    <h1><span id="weather-wind-speed"></span></h1>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="info-item">
+                    <h1><span id="weather-humidity"></span></h1>
+                    <p>Humidity</p>
+                </div>
+                <div class="info-item">
+                    <h1><span><img id="weather-icon"></span></h1>
+                    <p>Weather Icon</p>
+                </div>
+            </section>
+            <!-- Section for showing error messages -->
+            <section class="error hide">
+                 
+            </section>
+        </section>
+        <!-- Right section for showing past weather -->
+        <section class="right">
+            <h1><u>Past Weather</u></h1>
+            <!-- Container for showing past weather data -->
+            <div class="week-container"></div>
+        </section>
+    </main>
+    <!-- A JavaScript file to manage dynamic content -->
+    <script src="pranjalbabukoirala-2407642.script.js"></script>
+    <footer>
+        <p>&copy;pranjal babu koirala_2407642 </p>
+    </footer>
+</body>
+</html>
