@@ -1,0 +1,63 @@
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="pranjalbabukoirala-2407642-CSS.css" />
+</head>
+
+<body>
+     <!-- Container for the entire application -->
+    <div class="container">
+        <div class="header">
+             <!-- Form for city search -->
+            <form class="search">
+                <input type="text" placeholder="Search for a city..." class="searchform" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+        <div class="weatherBody">
+            <h1 class="weatherCity"></h1>
+            <div class="weather_datetime"></div>
+            <div class="weatherIcon"></div>
+            <p class="temperature"></p>
+            <div class="weatherForecast"></div>
+        </div>
+         <!-- Weather Information Section -->
+        <div class="weatherInfo">
+              <!-- Weather Card 1: Humidity -->
+            <div class="weatherCard">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+             <!-- Weather Card 2: Wind -->
+            <div class="weatherCard">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="wind"></p>
+                </div>                                                             
+            </div>
+        </div>
+          <!-- Weather Card 3: Pressure -->
+        <div class="weatherCard2">   
+            <i class="fa-solid fa-gauge-high"></i>
+            <div>
+                <p>Pressure</p>
+                <p class="pressure"></p>
+            </div>
+        </div>
+
+    </div>
+    <scEript src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+    <script src="pranjalbabukoirala-2407642-javascript.js"></script>
+</body>
+
+</html>
